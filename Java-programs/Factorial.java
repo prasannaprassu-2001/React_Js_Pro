@@ -8,3 +8,6 @@ class Factorial {
         System.out.println(output );
     }
 }
+ 
+
+ 
