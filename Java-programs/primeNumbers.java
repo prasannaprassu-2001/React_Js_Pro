@@ -1,4 +1,5 @@
-public class primeNumbers {
+//print prime numbers 
+ public class primeNumbers {
     public static void main(String args[]){
         int i;
         int j;
@@ -15,6 +16,30 @@ public class primeNumbers {
          }   
                 
           
+        }
+    }
+} 
+
+//given no. is prime or not
+
+public class primeNumbers{
+    public static void main(String args[]){
+        int i,m=0,flag=0;
+        int j=5;
+        m=j/2;
+        if(j==0||j==1){
+            System.out.println(j+"Not Prime no.");
+        }else{
+            for(i=2;i<=m;i++){
+                if(j%i==0){
+                    System.out.println(j+"Not Prime no.");
+                    flag=1;
+                    break;
+                }
+            }
+            if(flag==0){
+                System.out.println(j+"Prime no.");
+            }
         }
     }
 }
